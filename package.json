@@ -1,15 +1,26 @@
 {
   "name": "current-timezone",
   "version": "1.1.4",
-  "description": "",
+  "description": "A simple module to get current time and date of different time-zones",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "current-timezone",
+    "timezone",
+    "time",
+    "time-zone",
+    "current-time"
+  ],
   "author": "Gaurav Mehla <gaurav.ror007@gmail.com> (https://www.mehla.in/)",
   "license": "MIT",
   "dependencies": {
     "moment-timezone": "^0.5.13"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravmehla/current-timezone.git"
+  },
+  "homepage": "https://github.com/gauravmehla/current-timezone"
 }
