@@ -9,6 +9,21 @@ Install with npm : `npm i --save current-timezone`
 ```
 const ct = require('current-timezone')('Asia/Kolkata');
 
+ct                          //2017-09-17T04:46:12.000Z
+ct.getDate()                // 17
+ct.getMonth()               // 8
+ct.getFullYear()            // 2017
+ct.toGMTString()            // Sun, 17 Sep 2017 04:46:12 GMT
+ct.toDateString()           // Sun Sep 17 2017
+ct.toTimeString()           // 10:16:12 GMT+0530 (IST)
+ct.toLocaleString()         // 9/17/2017, 10:16:12 AM
+ct.toLocaleDateString()     // 9/17/2017
+ct.toLocaleTimeString()     // 10:16:12 AM
+ct.getHours()               // 10
+
+
+// For more : https://ecma-international.org/ecma-262/5.1/#sec-15.9
+
 ct.toLocaleString(); // 9/16/2017, 9:14:36 PM
 
 ```
