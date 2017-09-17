@@ -21,14 +21,13 @@ ct.toLocaleDateString()     // 9/17/2017
 ct.toLocaleTimeString()     // 10:16:12 AM
 ct.getHours()               // 10
 ct.toLocaleString();        // 9/16/2017, 9:14:36 PM
+```
 
 // For more : https://ecma-international.org/ecma-262/5.1/#sec-15.9
 
-
-
-```
-
 ## Timezones List
+Following are the supported timezones :
+
 ```
 "Africa/Abidjan",
 "Africa/Accra",
@@ -626,4 +625,4 @@ ct.toLocaleString();        // 9/16/2017, 9:14:36 PM
 ```
 
 ## License
-MIT © (Gaurav Mehla)[https://mehla.in]
+MIT © [Gaurav Mehla](https://mehla.in)
