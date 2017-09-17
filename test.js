@@ -1,3 +1,3 @@
-const ct = require('./')('Asia/Kolkata');
+const ct = require('./')('/Kolkata');
 
 console.log(ct);
