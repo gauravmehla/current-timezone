@@ -1,6 +1,6 @@
 ![Imgur](https://i.imgur.com/zKtcA2X.jpg)
 
-A simple package which takes timezone as a input and return current timestamp of that timezone.
+> A simple package which takes timezone as a input and return current timestamp of that timezone.
 
 ## Installation
 
